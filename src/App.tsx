@@ -1,10 +1,14 @@
 import React from 'react';
+import { Card, Content, Grid, Title } from './components';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <h1>Sudoku App</h1>
-    </div>
+    <Content>
+      <Title>Sudoku App</Title>
+      <Card>
+        <Grid />
+      </Card>
+    </Content>
   );
 }
 
